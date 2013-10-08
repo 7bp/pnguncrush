@@ -12,11 +12,11 @@ Sample Usage
 
 	$decoder = new PPngUncrush('path/to/source/crushed.png');
 
-	$img = $decoder->decode();
+	$img = $decoder->uncrush();
 	
 
 ### Conversion to file:
 
 	$decoder = new PPngUncrush('/path/to/source/crushed.png');
 
-	$decoder->decode('/path/to/destination/uncrushed.png');
+	$decoder->uncrush('/path/to/destination/uncrushed.png');
